@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Zaidan Mohammed | Portfolio</title>
+    <title>Zaidan Mohammed | Portfolio</title>
     <style>
-        /* خلفية متدرجة مودرن */
+        /* Professional & Clean Gradient Background */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
@@ -19,7 +19,7 @@
             justify-content: center;
         }
 
-        /* كارد أنيق بظل خفيف */
+        /* Sleek Card Design */
         .card {
             background: rgba(255, 255, 255, 0.95);
             padding: 40px;
@@ -29,21 +29,20 @@
             margin: 0 auto;
             border: 1px solid rgba(255,255,255,0.2);
         }
-        .portfile-container {
+
+        /* Profile Image Styling */
+        .profile-container {
             position: relative;
             display: inline-block;
             margin-bottom: 20px;
-
         }
 
-        /* تنسيق الصورة الشخصية الدائرية */
         .profile-img {
             width: 130px;
             height: 130px;
             border-radius: 50%;
             border: 4px solid #457b9d;
             object-fit: cover;
-            margin-bottom: 20px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
@@ -55,7 +54,7 @@
         }
 
         .role {
-            color: #e63946;
+            color: #e63946; /* Eye-catching role color */
             font-size: 1.1em;
             font-weight: 600;
             margin-top: 0;
@@ -65,11 +64,11 @@
         p {
             line-height: 1.7;
             color: #457b9d;
-            font-size: 1.05;
+            font-size: 1.05em;
             margin-bottom: 30px;
         }
 
-        /* قسم المهارات */
+        /* Interactive Skills Section */
         .skills-container {
             margin-bottom: 35px;
         }
@@ -87,6 +86,8 @@
             transition: all 0.3s ease;
             cursor: default;
         }
+
+        /* Hover effect for a pro developer feel */
         .skill-badge:hover {
             background-color: #1d3557;
             color: #ffffff;
@@ -94,7 +95,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        /* تنسيق الزر الاحترافي مع تأثير الـ Hover */
+        /* Professional GitHub Button */
         .btn {
             display: inline-block;
             background-color: #1d3557;
@@ -117,23 +118,25 @@
 </head>
 <body>
 
-    <div class="profile-container">
-        <img src="me_jpg.jpeg" alt="Zaidan Mohammed" class="profile-img">
-    </div>
+    <div class="card">
         
-       <h1>[ZAIDAN.MOHAMMED]</h1>
-        <p class="role">Flutter & Web Developer</p>
-        
-        <p>Hello! I am a passionate developer starting my professional journey. I kicked off my career in mobile app development using <b>flutter</b>, and currently, I am expanding my skill set into web development and version control with <b>Git & Github</b> to build clean, impactful projects.</b></p>
-        
-        <div class="skills-container">
-            <span class="skill-badge">Dart / Flutter</span>
-            <span class="skill-badge">Git / GitHub</span>
-            <span class="skill-badge">HTML5 & CSS3</span>
-            <span class="skill-badge">VS Code</span>
+        <div class="profile-container">
+            <img src="me_jpg.jpeg" alt="Zaidan Mohammed" class="profile-img">
         </div>
         
-        <a href="https://github.com/zaidanmohammed-dotcom" target="_blank" class="btn">View My GitHub</a>
+        <h1>ZAIDAN MOHAMMED</h1>
+        <p class="role">Flutter & Web Developer</p>
+        
+        <p>Hello! I am a passionate developer starting my professional journey. I kicked off my career in mobile app development using <b>Flutter</b>, and currently, I am expanding my skill set into web development and version control with <b>Git & GitHub</b> to build clean, impactful projects.</p>
+        
+        <div class="skills-container">
+            <span class="skill-badge">💻 Dart / Flutter</span>
+            <span class="skill-badge">🌐 HTML5 & CSS3</span>
+            <span class="skill-badge">🐙 Git / GitHub</span>
+            <span class="skill-badge">🛠️ VS Code</span>
+        </div>
+        
+        <a href="https://github.com/zaidanmohammed-dotcom" target="_blank" class="btn">🚀 View My GitHub</a>
     </div>
 
 </body>
